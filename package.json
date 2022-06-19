@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --loader ts-node/esm ./src/index.ts",
-    "test-message": "node --loader ts-node/esm ./src/presentation/routes/message",
+    "dev": "node --loader ts-node/esm ./src/index.ts",
     "start": "node ./src/index.ts"
   },
   "keywords": [],
