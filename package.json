@@ -1,0 +1,26 @@
+{
+  "name": "ts-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --loader ts-node/esm ./src/index.ts",
+    "test-message": "node --loader ts-node/esm ./src/presentation/routes/message",
+    "start": "node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ibm-watson": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.40",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.7.3"
+  }
+}
